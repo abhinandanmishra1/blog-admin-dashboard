@@ -2,7 +2,6 @@ from fastapi import FastAPI, HTTPException, Body, Depends, Request, Security
 from pydantic import BaseModel, Field
 from typing import List, Optional
 from pymongo import MongoClient
-from bson import ObjectId
 from fastapi.middleware.cors import CORSMiddleware
 import bcrypt
 import base64
